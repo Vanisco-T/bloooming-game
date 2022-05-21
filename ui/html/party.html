@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configure The Party</title>
+    <link rel="stylesheet" href="../css/levelup1.css">
+</head>
+<body>
+<div class="party">
+		<form action="./field.html" method="GET">
+        <p>Game Setup</p>
+	<div id="close">
+        <p>
+            <label for="party">Party Name :
+            <input name="party" type="text"  id="party" placeholder="Ex
+            : Friend Party" size="" maxlength="15" /></label>
+        </p>
+        <p><label for="partyDuration" id="du"> Party Duration:
+<select name="time" id="time">
+    <option>0:15</option>
+    <option>0:30</option>
+    <option>0:45</option>
+    <option>0:1</option>
+    <option>1:15</option>
+    <option>1:30</option>
+    <option>1:45</option>
+    <option>0:2</option>
+    </select></label>
+	</div>
+
+       <label for="NumberBaby">  Maximum Number of Baby:
+        <select name="baby" id="baby">
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+    </label></p>
+       <p > <label for="name">Player Name:</label>
+        <input type="text" name="player" id="sur" required="required" placeholder="Ex : Vanisco">
+        <label for="color">Color:</label>
+        <select name="color" id="color">
+            <option>Blue</option>
+            <option>Green</option>
+            <option>Red</option>
+            <option>White</option>
+            <option>Black</option>
+        </select>
+    </p>
+    <div id="play"></div>
+    <p>
+        <label for="smalldeal">Choose the maximun Small Deal:</label>
+        <select  id="smalldeal" name="smalldeal">
+            <option>500</option>
+            <option>1000</option>
+            <option>2000</option>
+            <option>3000</option>
+            <option>4000</option>
+            <option>5000</option>
+        </select>
+    </p>
+    <div id="big"></div>
+    </div>
+   <div id="begin">
+   <input type="submit" value="Start">
+   </div>
+
+</body>
+</html>

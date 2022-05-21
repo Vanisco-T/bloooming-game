@@ -1,0 +1,345 @@
+.unitlogo{
+	overflow: flex;
+}
+#card {
+	border-style: solid;
+	border-radius: 12px;
+	padding: 3px;
+	background-color: #d11831;
+	margin-right: 80%;
+	text-align: center;
+	color: #112427;
+	border-color: #967771;
+	padding-bottom: 0px;
+	width: 170px;
+	margin-left: 70px;
+	display: flex;
+}
+.thetable {
+	border-style: solid;
+	/*border-radius: 12px;*/
+	padding: 7px;
+	padding-bottom: 30px;
+	background-color: #b8bb26;
+	margin-right: 80%;
+	text-align: center;
+	color: #112427;
+	border-color: #734a7e;
+	margin-top: 7px;
+	width: 320px;
+	box-shadow: 5px 5px rgb(48, 43, 43);
+	height: max-content;
+}
+
+
+tr, td {
+	width: 18%;
+	text-align: left;
+	overflow: auto;
+}
+#card {
+	background-color: #b8bb26;
+	color: #112427;
+	margin-right:0;
+	border-color: #7b828b;
+	
+}	
+#inputtext {
+	background-color: #d85e20;
+	padding: 3px;
+	border-color: #3A5165;
+	border-style: thin;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 26px;
+	width: 200px;
+}
+#deal {
+	display: flex;
+}
+.allbuttons:hover {
+	border-color:darkorchid ;
+}
+.allbuttons {
+	background-color: #b1bbc7;
+	border-color: #4F6479;
+	color: #112427;
+	border-style: thin;
+	border-width: 3px;
+	padding: 8px;
+}
+#deal { margin-top: 50px; }
+#lone { margin-right: 70px; }
+#rone { margin-left: 70px; }
+
+#pa {
+	margin: 2px;
+}
+
+#cardcontent {
+	color: #112427;
+	border-radius: 20px;
+}
+.butsl { font-family: fantasque sans mono; font-size:16px; }
+/* now styling each element of the balance sheet*/
+.groupbuttons {
+	margin-bottom: 7px;
+	margin-top: 7px;
+;
+}
+.info {
+	color: #112427;
+	padding: 3px;
+	margin-right: 80%;
+	margin-top: 6px;
+	width: 300px;
+	/*box-shadow: 5px 5px rgb(49, 44, 44);*/
+	margin-bottom: 10px;
+}
+.sheet {
+	color:  #112427;;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 3px;
+	border-style: solid;
+	border-width: 1px;
+	background-color:rgb(250, 205, 151);
+	border-color: #11161f;
+	text-align: center;
+	}
+.capital { font-size: 35px; 
+	color: #a84455;
+	}
+.beside_cash {
+	display: flex;
+}
+.expandincome {
+	margin-right: 150px;
+}
+.totalexp {
+	width: 190px;
+	margin-right: 5px;
+	font-size: 14px;
+	margin-bottom: 5px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 1px;
+	padding: 5px;
+	background-color: #458588;
+	border-color: #60758B;
+	color: #112427;
+	text-align: center;
+}
+#theexpense {
+	font-size: 14px;
+	margin-right: 5px;
+	padding: 5px;
+	margin-bottom: 5px;
+	color: #a84455;
+	font-weight:bolder;
+	}
+	
+.st {
+	margin-right: 5px;
+	font-size: 14px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 1px;
+	padding: 7px;
+	background-color: #458588;
+	border-color: #4F6479;
+	color: #112427;	
+	width: 190px;
+	text-align: center;
+}
+#passive { 
+	margin-right: 0px;
+	font-size: 15px;
+	padding: 5px;
+	color: #a84455;
+	font-weight:bolder;}
+
+#stcash {
+	font-size: 15px;
+}
+#stday {
+	margin-right: 115px;
+}
+
+#stincome {
+	font-size: 14px;
+	margin-right: 78px;
+}
+#exincome {
+	margin-right: 64px;
+	font-size: 14px;
+}
+#cash { font-size: 17px; }
+#speccard {
+	text-align: center;
+	padding: 40px;
+}
+#idk{
+	background-color:#b8bb26;
+	border-width: 5px;
+	border-color: #4F6479;
+	box-shadow: 5px 5px rgb(48, 43, 43);
+}
+#cardimg { padding-bottom: 50px; }
+#cardcontent {
+	padding: 9px;
+	margin-bottom: 50px;
+}
+#addition {
+	width: 80%;
+	margin-left: 0px;
+}
+/*using flex-container to array div elements*/
+.firstflex {
+	display: flex;
+	flex-direction: column;
+	width: 378px;
+}
+.secondflex {
+	display: flex;
+	flex-direction: column;
+		width: 378px;
+		
+	}
+	
+.first-second-flex {
+	display: flex;
+	width: 700px;
+	
+}
+.third-flex {
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+.flex-container {
+	display: flex;
+}
+#rough {
+	height: 85px;
+	display: flex;
+	background-color:#b8bb26;
+	border-width: 5px;
+	border-color: #4F6479;
+}
+#all{
+	margin: 200px;
+	justify-content: center;
+	display: flex;
+	position: fixed;
+	height: 535px;
+	width: 700px;
+}
+#fin{
+margin-right: 0px;
+text-align: center;
+width: 300px;
+margin-left: -50px;
+}
+#expenses {
+	height:230px;
+	overflow: scroll;
+	border-radius: 25px;
+	background-color:#b8bb26;
+	border-width: 5px;
+	border-color: #4F6479;
+	box-shadow: 5px 5px rgb(48, 43, 43);
+}
+.general{
+	display: flex;
+}
+#general-exp{
+	display: flex;
+}
+.push{
+	margin-right: 80px;
+	margin-left: 30px;
+
+}
+#liability {
+	overflow: scroll;
+	height: 210px;
+	border-radius: 25px;
+	background-color:#b8bb26;
+	border-width: 5px;
+	border-color: #4F6479;
+	box-shadow: 5px 5px rgb(48, 43, 43);
+}
+
+#balance {
+	height: 170px;
+	color: #112427;
+	background-color:#b8bb26;
+	border-width: 5px;
+	border-color: #4F6479;
+}
+#assets {background-color:rgb(40, 57, 156);
+	height: 270px;
+	overflow: scroll;
+	background-color:#b8bb26;
+	border-width: 5px;
+	border-color: #4F6479;
+	box-shadow: 5px 5px rgb(48, 43, 43);
+}
+.tu{
+	margin-top: -150px;
+	margin-bottom: 500px;
+	height: 600px;
+	width: 750px;
+	position: absolute;
+	margin-left: -480px;
+/*	visibility: hidden;*/	
+}
+#i1 {
+    margin-left:-200px ;
+	background-color: #b1bbc7;
+	height: 35px;
+}
+#i2{
+	margin-left:30px ;
+	background-color: #b1bbc7;
+		height: 35px;
+}
+#i3{
+	margin-left: 10px;
+	background-color: #b1bbc7;
+	height: 35px;
+}
+#i{
+	margin-left:20px ;
+	background-color: #b1bbc7;
+		height: 35px;
+}
+.allbuttons1 {
+	background-color: #b1bbc7;
+	border-color: #4F6479;
+	color: #112427;
+	border-style: thin;
+	border-width: 4px;
+	padding: 8px;
+	margin-bottom: 10px;
+	margin-top: 95px;
+}
+
+img{
+	height: 75px;
+	width: 75px;
+}
+#hd{
+	text-align: center;
+	font-size: medium;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#ro{
+
+	margin-left: -120px;
+	margin-bottom: -450px;
+}

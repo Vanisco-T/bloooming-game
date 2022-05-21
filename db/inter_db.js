@@ -1,0 +1,3 @@
+class interface_db {
+	
+}
